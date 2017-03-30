@@ -1,8 +1,8 @@
     {
         "name"                  :"CeresSadingo",
-        "description"           :"Basic theme plugin",
+        "description"           :"child template for Ceres",
         "namespace"             :"CeresSadingo",
-        "author"                :"Sadingo",
+        "author"                :"mhuch",
         "keywords"              : ["theme", "Ceres", "template"],
         "type"                  :"theme",
         "require"               : [],
