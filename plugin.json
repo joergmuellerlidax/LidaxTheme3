@@ -11,8 +11,8 @@
         [
             {
                 "key"           :"CeresSadingo\\Containers\\ThemeContainer",
-                "name"          :"Dark background",
-                "description"   :"Change the background colour of the Ceres template"
+                "name"          :"CeresSadingo",
+                "description"   :"Change the colour of the Ceres template"
             }
         ]
     }
