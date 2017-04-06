@@ -1,8 +1,28 @@
-    /* Change background colour */
-    body {
-        background-color: #808080;
-    }
-
+/* CeresSadingo Design */
+body {
+    background-color: #808080;
+}
+a {
+    color: #e878aa;
+}
     .navbar {
         background-color: #f9a7cd;
     }
+
+
+//Links der Menü Leiste
+.wrapper-main .navbar{
+  //<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  font-family: 'Muli', sans-serif;
+}
+
+.wrapper-main .navbar a {
+  color: #fff;
+}
+//Farbe der Menü fenster
+.wrapper-main .navbar .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item {
+    color: #000;
+}
+.wrapper-main .navbar .navbar-nav .nav-item>.nav-link {
+    border: none;
+}
