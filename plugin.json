@@ -2,7 +2,7 @@
         "name"                  :"CeresSadingo",
         "description"           :"child template for Ceres",
         "namespace"             :"CeresSadingo",
-        "author"                :"mhuch",
+        "author"                :"m.huch",
         "keywords"              : ["theme", "Ceres", "template"],
         "type"                  :"theme",
         "require"               : [],
