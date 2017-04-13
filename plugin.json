@@ -1,21 +1,21 @@
-    {
-        "version"               : "1.0.0",
-        "name"                  :"CeresSadingo",
-        "description"           :"child template for Ceres",
-        "namespace"             :"CeresSadingo",
-        "author"                :"m.huch",
-        "license"               : "non-license",
-        "price"                 : 0.00,
-        "keywords"              : ["plentymarkets", "plugins", "layout", "theme", "ceres", "sadingo"],
-        "type"                  :"theme",
-        "require"               : ["Ceres", "IO"],
-        "serviceProvider"       :"CeresSadingo\\Providers\\CeresSadingoServiceProvider",
-        "dataProviders"         :
-        [
-            {
-                "key"           :"CeresSadingo\\Containers\\CeresSadingoContainer",
-                "name"          :"CeresSadingo",
-                "description"   :"Change the colour of the Ceres template"
-            }
-        ]
-    }
+{
+      "version"               : "1.0.0",
+      "name"                  :"CeresSadingo",
+      "description"           :"Dies ist ein Theme für das Ceres Plugin",
+      "namespace"             :"CeresSadingo",
+      "author"                :"m.huch",
+      "license"               : "non-license",
+      "price"                 : 0.00,
+      "keywords"              : ["plentymarkets", "plugins", "layout", "theme", "ceres", "sadingo"],
+      "type"                  :"theme",
+      "require"               : ["Ceres", "IO"],
+      "serviceProvider"       :"CeresSadingo\\Providers\\CeresSadingoServiceProvider",
+      "dataProviders"         :
+      [
+          {
+              "key"           :"CeresSadingo\\Containers\\CeresSadingoContainer",
+              "name"          :"CeresSadingo",
+              "description"   :"Ändert das Design von Ceres!"
+          }
+      ]
+}
