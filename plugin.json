@@ -1,11 +1,13 @@
     {
+        "version"               : "1.0.0",
         "name"                  :"CeresSadingo",
         "description"           :"child template for Ceres",
         "namespace"             :"CeresSadingo",
-        "author"                :"mhuch",
+        "author"                :"m.huch",
+        "price"                 : 0.00,
         "keywords"              : ["theme", "Ceres", "template"],
         "type"                  :"theme",
-        "require"               : [],
+        "require"               : ["Ceres", "IO"],
         "serviceProvider"       :"CeresSadingo\\Providers\\CeresSadingoServiceProvider",
         "dataProviders"         :
         [
