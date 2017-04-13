@@ -6,11 +6,11 @@
         "keywords"              : ["theme", "Ceres", "template"],
         "type"                  :"theme",
         "require"               : [],
-        "serviceProvider"       :"CeresSadingo\\Providers\\ThemeServiceProvider",
+        "serviceProvider"       :"CeresSadingo\\Providers\\CeresSadingoServiceProvider",
         "dataProviders"         :
         [
             {
-                "key"           :"CeresSadingo\\Containers\\ThemeContainer",
+                "key"           :"CeresSadingo\\Containers\\CeresSadingo",
                 "name"          :"CeresSadingo",
                 "description"   :"Change the colour of the Ceres template"
             }

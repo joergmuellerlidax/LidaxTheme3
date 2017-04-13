@@ -4,10 +4,10 @@
 
     use Plenty\Plugin\Templates\Twig;
 
-    class ThemeContainer
+    class CeresSadingo
     {
         public function call(Twig $twig):string
         {
-            return $twig->render('CeresSadingo::content.Theme');
+            return $twig->render('CeresSadingo::CeresSadingo');
         }
     }

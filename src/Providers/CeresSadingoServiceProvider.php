@@ -4,7 +4,7 @@
 
     use Plenty\Plugin\ServiceProvider;
 
-    class ThemeServiceProvider extends ServiceProvider
+    class CeresSadingoServiceProvider extends ServiceProvider
     {
 
     	/**
