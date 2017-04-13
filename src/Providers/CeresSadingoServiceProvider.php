@@ -1,17 +1,17 @@
-    <?php
+<?php
 
-    namespace CeresSadingo\Providers;
+namespace CeresSadingo\Providers;
 
-    use Plenty\Plugin\ServiceProvider;
+use Plenty\Plugin\ServiceProvider;
 
-    class CeresSadingoServiceProvider extends ServiceProvider
-    {
+class CeresSadingoServiceProvider extends ServiceProvider
+{
 
-    	/**
-    	 * Register the service provider.
-    	 */
-    	public function register()
-    	{
+	/**
+	 * Register the service provider.
+	 */
+	public function register()
+	{
 
-    	}
-    }
+	}
+}

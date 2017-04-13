@@ -1,13 +1,13 @@
-    <?php
+<?php
 
-    namespace CeresSadingo\Containers;
+namespace CeresSadingo\Containers;
 
-    use Plenty\Plugin\Templates\Twig;
+use Plenty\Plugin\Templates\Twig;
 
-    class CeresSadingoContainer
+class CeresSadingoContainer
+{
+    public function call(Twig $twig):string
     {
-        public function call(Twig $twig):string
-        {
-            return $twig->render('CeresSadingo::CeresSadingo');
-        }
+        return $twig->render('CeresSadingo::CeresSadingo');
     }
+}
