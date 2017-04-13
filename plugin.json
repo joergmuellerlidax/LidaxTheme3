@@ -2,7 +2,7 @@
         "name"                  :"CeresSadingo",
         "description"           :"child template for Ceres",
         "namespace"             :"CeresSadingo",
-        "author"                :"m.huch",
+        "author"                :"mhuch",
         "keywords"              : ["theme", "Ceres", "template"],
         "type"                  :"theme",
         "require"               : [],
@@ -10,7 +10,7 @@
         "dataProviders"         :
         [
             {
-                "key"           :"CeresSadingo\\Containers\\CeresSadingo",
+                "key"           :"CeresSadingo\\Containers\\CeresSadingoContainer",
                 "name"          :"CeresSadingo",
                 "description"   :"Change the colour of the Ceres template"
             }
