@@ -1,30 +1,99 @@
-/* CeresSadingo Design */
+/********** CeresSadingo Design **********/
 body {
-    background-color: #808080;
+  background-color: #F4F4F4;
+  /*<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">*/
+  font-family: 'Muli', sans-serif !important;
 }
-/*
 a {
-    color: #e878aa;
+  color: #e878aa !important;
+}
+/***** Userbar (oben) *****/
+.controls-list a {
+  color: #fff !important;
+}
+.top-bar .controls-list .control-basket .toggle-basket-preview {
+  background: #FD98BB !important;
+  border-bottom: solid 1px;
+  padding-bottom: 6px;
+}
+.controls-list a:hover{
+  background: #FD98BB !important;
+}
+/***** Menü Leiste (oben) *****/
+.breadcrumb a {
+    color: #e878aa !important;
 }
     .navbar {
-        background-color: #f9a7cd;
+        background-color: #FF80AB !important;
     }
+/*Dropdown Kategorien*/
+#mainNavbarCollapsable ul.mainmenu>li>ul {
+  background: #FD98BB !important;
+}
+  #mainNavbarCollapsable ul.mainmenu>li>ul>li:hover {
+  background: #FF80AB !important;
+}
+#mainNavbarCollapsable ul.mainmenu>li:hover {
+  background: #FD98BB !important;
+}
 
-
-//Links der Menü Leiste
+/*Links der Menü Leiste*/
 .wrapper-main .navbar{
-  //<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', sans-serif !important;
 }
 
 .wrapper-main .navbar a {
-  color: #fff;
+  color: #fff !important;
 }
-//Farbe der Menü fenster
+/*Farbe der Menü fenster*/
 .wrapper-main .navbar .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item {
-    color: #000;
+    color: #000 !important;
 }
 .wrapper-main .navbar .navbar-nav .nav-item>.nav-link {
-    border: none;
+    border: none !important;
 }
-*/
+/***** Warenkorb *****/
+/*Name des Produktes*/
+
+
+/***** Button *****/
+/*ausgefüllter Button*/
+.btn-primary {
+  color: #fff !important;
+  background-color: #FF80AB;
+  border-color: #FF80AB;
+}
+  .btn-primary:hover {
+  background-color: #FF80AB;
+  border-color: #FF80AB;
+}
+/*Nicht ausgefüllter Button*/
+.btn-outline-primary {
+  color: #FF80AB;
+  border-color: #FF80AB;
+}
+  .btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #FF80AB;
+    border-color: #FF80AB;
+  }
+/***** Content *****/
+.page-content {
+  background: #fff;
+  padding: 20px;
+}
+/*****Artikelseite*****/
+/*Sofort versandfertig,Lieferzeit 2-3Tage*/
+.availability_1, .availability_2{
+  background-color: #00c174;
+}
+/***** Footer *****/
+.footer {
+   background-color: #555860;
+}
+  .footer a {
+   color: #fff !important;
+  }
+.footer-column {
+  color: #fff !important;
+}
