@@ -1,10 +1,15 @@
 /********** CeresSadingo Design **********/
 body {
   background-color: #F4F4F4;
+  /*<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">*/
   font-family: 'Muli', sans-serif !important;
 }
 a {
   color: #e878aa !important;
+}
+/*Text größe Artikelübersicht Breadcrumb*/
+.basket-preview .totals, .btn-labeled, .small, small {
+  font-size: 100%;
 }
 /***** Userbar (oben) *****/
 .controls-list a {
@@ -69,9 +74,17 @@ a {
   border-color: #FF80AB;
 }
   .btn-primary:hover {
-  background-color: #FF80AB;
-  border-color: #FF80AB;
-}
+    background-color: #FF80AB;
+    border-color: #FF80AB;
+  }
+  .btn-primary:active:hover {
+    background-color: #FF80AB;
+    border-color: #FF80AB;
+  }
+  .btn-primary:focus {
+    background-color: #FF80AB;
+    border-color: #FF80AB;
+  }
 /*Nicht ausgefüllter Button*/
 .btn-outline-primary {
   color: #FF80AB;
@@ -82,6 +95,10 @@ a {
     background-color: #FF80AB;
     border-color: #FF80AB;
   }
+.btn-outline-primary:active:hover, .btn-outline-primary:focus{
+    background-color: #FF80AB;
+    border-color: #FF80AB;
+}
 /*Suche Button*/
 .cmp-search-box .search-submit {
   color: #FF80AB !important;
