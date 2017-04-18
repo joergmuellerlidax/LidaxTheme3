@@ -1,7 +1,6 @@
 /********** CeresSadingo Design **********/
 body {
   background-color: #F4F4F4;
-  /*<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">*/
   font-family: 'Muli', sans-serif !important;
 }
 a {
@@ -10,6 +9,9 @@ a {
 /***** Userbar (oben) *****/
 .controls-list a {
   color: #fff !important;
+}
+.top-bar {
+  background-color: #555860;
 }
 .top-bar .controls-list .control-basket .toggle-basket-preview {
   background: #FD98BB !important;
@@ -20,12 +22,15 @@ a {
   background: #FD98BB !important;
 }
 /***** Menü Leiste (oben) *****/
-.breadcrumb a {
-    color: #e878aa !important;
+.wrapper-main>nav.container-max{
+  background-color: #fff !important;
 }
-    .navbar {
-        background-color: #FF80AB !important;
-    }
+.breadcrumb a {
+  color: #e878aa !important;
+}
+.navbar {
+  background-color: #FF80AB !important;
+}
 /*Dropdown Kategorien*/
 #mainNavbarCollapsable ul.mainmenu>li>ul {
   background: #FD98BB !important;
@@ -77,10 +82,29 @@ a {
     background-color: #FF80AB;
     border-color: #FF80AB;
   }
+/*Suche Button*/
+.cmp-search-box .search-submit {
+  color: #FF80AB !important;
+}
 /***** Content *****/
 .page-content {
   background: #fff;
   padding: 20px;
+}
+/*Abstand nach oben*/
+.wrapper-main #page-body{
+  margin-top: 100px;
+}
+/*Filter oben*/
+.list-controls .list-controls-inner {
+  background: #F4F4F4;
+}
+/*Artikel*/
+/*Seiten navbar (unten)*/
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+  background-color: #FD98BB;
+  border-color: #FD98BB;
+  color: #fff !important;
 }
 /*****Artikelseite*****/
 /*Sofort versandfertig,Lieferzeit 2-3Tage*/
@@ -96,4 +120,19 @@ a {
   }
 .footer-column {
   color: #fff !important;
+}
+/***** Mobile *****/
+.navbar-toggler{
+  color: #fff;
+}
+@media (max-width: 992px){
+#mainNavbarCollapsable{
+  background-color: #fff;
+}
+  #mainNavbarCollapsable a{
+    color: #e878aa !important;
+  }
+    #mainNavbarCollapsable a:hover{
+      color: #fff !important;
+    }
 }
