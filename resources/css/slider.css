@@ -3,3 +3,6 @@
   padding: 0 !important;
   margin-top: -14px;
 }
+.carousel-inner{
+  height: 300px;
+}
