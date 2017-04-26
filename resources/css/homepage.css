@@ -13,12 +13,13 @@
 
 /*****Startseite Cards*****/
 .homepage_card{
-
+    width: 100% !important;
 }
 .homepage_card-block{
 
 }
 .homepage_card_img{
   height: 278px;
+  width: 278px;
   background-color: #e878aa;
 }
