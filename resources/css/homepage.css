@@ -21,6 +21,10 @@
     color: #FFF !important;
     font-weight: bold;
   }
+  /*****Rows*****/
+.homepage_row {
+  margin-top: 25px;
+}
 /*****Cards*****/
 .homepage_card {
     width: 100% !important;
