@@ -1,4 +1,4 @@
-/*****Startseite Slider*****/
+/*****Slider*****/
 .main_container_slider{
   padding: 0 !important;
   margin-top: -14px;
@@ -6,12 +6,16 @@
 .carousel-inner{
   /*height: 300px;*/
 }
-/*****Startseite Container*****/
+/*****Container*****/
 .main_pagecontent{
   margin-top: 25px;
 }
-
-/*****Startseite Cards*****/
+/*****Sale*****/
+.homepage_sale-row{
+  height: 50px;
+  background-color: #e878aa
+}
+/*****Cards*****/
 .homepage_card{
     width: 100% !important;
 }
