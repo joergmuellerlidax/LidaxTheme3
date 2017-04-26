@@ -13,8 +13,14 @@
 /*****Sale*****/
 .homepage_sale-row{
   height: 50px;
-  background-color: #e878aa
+  background-color: #FD98BB;
 }
+  .homepage_sale-row a{
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+  }
 /*****Cards*****/
 .homepage_card{
     width: 100% !important;
