@@ -1,34 +1,34 @@
 /*****Slider*****/
-.main_container_slider{
+.main_container_slider {
   padding: 0 !important;
   margin-top: -14px;
 }
-.carousel-inner{
+.carousel-inner {
   /*height: 300px;*/
 }
 /*****Container*****/
-.main_pagecontent{
+.main_pagecontent {
   margin-top: 25px;
 }
 /*****Sale*****/
-.homepage_sale-row{
+.homepage_sale-row {
   height: 50px;
   background-color: #FD98BB;
+  text-align: center;
 }
-  .homepage_sale-row a{
-    text-align: center;
+  .homepage_sale-row a {
     font-size: 34px;
-    color: white;
+    color: #FFF !important;
     font-weight: bold;
   }
 /*****Cards*****/
-.homepage_card{
+.homepage_card {
     width: 100% !important;
 }
-.homepage_card-block{
+.homepage_card-block {
 
 }
-.homepage_card_img{
+.homepage_card_img {
   height: 348px;
   width: 100%;
   background-color: #e878aa;
