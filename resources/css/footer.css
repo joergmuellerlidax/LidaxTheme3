@@ -1,0 +1,13 @@
+/***** Footer *****/
+.footer {
+   background-color: #fd98bb;
+}
+  .footer a {
+   color: #fff !important;
+  }
+.footer-column {
+  color: #fff !important;
+}
+.main_container_footer {
+  padding: 25px 15px 25px 15px;
+}

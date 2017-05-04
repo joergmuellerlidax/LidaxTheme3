@@ -129,16 +129,6 @@ a {
   background-color: #00c174;
 }
 
-/***** Footer *****/
-.footer {
-   background-color: #fd98bb;
-}
-  .footer a {
-   color: #fff !important;
-  }
-.footer-column {
-  color: #fff !important;
-}
 /***** Mobile *****/
 .navbar-toggler{
   color: #fff;
