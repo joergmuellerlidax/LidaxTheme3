@@ -20,13 +20,13 @@ class CeresSadingoServiceProvider extends ServiceProvider
   {
     // provide template to use for homepage
     $eventDispatcher->listen('IO.tpl.home', function(TemplateContainer $container, $templateData) {
-        $container->setTemplate("CeresSadingo::Homepage.Homepage");
+        $container->setTemplate("CeresSadingo::content.Homepage");
         return false;
     });
 		// footer view
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
 		{
-			 $partial->set('footer', 'Theme::Homepage.Footer');
+			 $partial->set('footer', 'Theme::content.Footer');
 		}, 0);
 		return false;
   }
