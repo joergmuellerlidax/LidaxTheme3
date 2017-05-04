@@ -21,7 +21,7 @@ class CeresSadingoServiceProvider extends ServiceProvider
   {
     // provide template to use for homepage
     $eventDispatcher->listen('IO.tpl.home', function(TemplateContainer $container, $templateData) {
-        $container->setTemplate("CeresSadingo::content.Homepage");
+        $container->setTemplate("CeresSadingo::Homepage.Homepage");
         return false;
     });
 
