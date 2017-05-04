@@ -28,6 +28,6 @@ class CeresSadingoServiceProvider extends ServiceProvider
 		{
 			 $partial->set('footer', 'Theme::content.Footer');
 		}, 0);
-		return false;
+
   }
 }
