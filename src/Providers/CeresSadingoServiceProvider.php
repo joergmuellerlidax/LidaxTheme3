@@ -25,11 +25,5 @@ class CeresSadingoServiceProvider extends ServiceProvider
         return false;
     });
 
-		// footer view
-		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
-		{
-			 $partial->set('footer', 'CeresSadingo::content.Footer');
-		}, 0);
-  	return false;
   }
 }
