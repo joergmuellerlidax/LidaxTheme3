@@ -18,16 +18,19 @@ class CeresSadingoServiceProvider extends ServiceProvider
 
 	public function boot (Twig $twig, Dispatcher $eventDispatcher)
   {
+		// footer view
+		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
+		{
+			 $partial->set('footer', 'CeresSadingo::content.Footer');
+		}, 0);
+  	return false;
+		
     // provide template to use for homepage
     $eventDispatcher->listen('IO.tpl.home', function(TemplateContainer $container, $templateData) {
         $container->setTemplate("CeresSadingo::content.Homepage");
         return false;
     });
-		// footer view
-		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
-		{
-			 $partial->set('footer', 'Theme::content.Footer');
-		}, 0);
+
 
   }
 }
