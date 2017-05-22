@@ -31,10 +31,15 @@ a {
   border-right: 1px solid;
 }
 .control-user a:first-child{
+  margin-right: -3px;
   border-right: 1px solid;
 }
 .control-user .pipe {
   display: none;
+}
+/***** Menü (oben) *****/
+.mainmenu li {
+  position: static;
 }
 /***** Menü Leiste (oben) *****/
 .wrapper-main>nav.container-max {
