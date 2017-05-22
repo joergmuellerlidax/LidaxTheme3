@@ -39,7 +39,7 @@ a {
 }
 /***** Menü (oben) *****/
 .mainmenu li {
-  position: static;
+  position: static !important;
 }
 /***** Menü Leiste (oben) *****/
 .wrapper-main>nav.container-max {
