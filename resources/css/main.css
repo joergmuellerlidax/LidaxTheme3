@@ -30,7 +30,7 @@ a {
   border-left: 1px solid;
   border-right: 1px solid;
 }
-.control-user a:first-child{
+.control-user a:first-child {
   margin-right: -3px;
   border-right: 1px solid;
 }
@@ -38,7 +38,7 @@ a {
   display: none;
 }
 /***** Menü (oben) *****/
-.mainmenu li {
+#mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
 }
 /***** Menü Leiste (oben) *****/
