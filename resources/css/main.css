@@ -64,7 +64,9 @@ a {
 }
   #mainNavbarCollapsable ul.mainmenu>li>ul>li:hover {
   background: #FD98BB !important;
-  text-decoration: underline;
+  }
+  #mainNavbarCollapsable ul.mainmenu>li>ul>li a:hover {
+    text-decoration: underline;
   }
   #mainNavbarCollapsable ul.mainmenu>li:hover {
     background: #FD98BB !important;
