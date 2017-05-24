@@ -60,13 +60,15 @@ a {
 /*Dropdown Kategorien*/
 #mainNavbarCollapsable ul.mainmenu>li>ul {
   background: #FD98BB !important;
+  padding: 25px;
 }
   #mainNavbarCollapsable ul.mainmenu>li>ul>li:hover {
-  background: #FF80AB !important;
-}
-#mainNavbarCollapsable ul.mainmenu>li:hover {
   background: #FD98BB !important;
-}
+  text-decoration: underline;
+  }
+  #mainNavbarCollapsable ul.mainmenu>li:hover {
+    background: #FD98BB !important;
+  }
 
 /*Links der Menü Leiste*/
 .wrapper-main .navbar{
