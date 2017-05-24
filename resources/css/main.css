@@ -114,12 +114,15 @@ a {
     color: #e878aa !important;
     background: #fff;
   }
-  .sidebar-categories ul li.active>a:after {
-    content: '\f107';
-    font-family: FontAwesome;
-    padding: 5px ;
+  .sidebar-categories ul li>a:first-of-type:after {
+      content: '\f107';
+      font-family: FontAwesome;
+      padding: 5px ;
   }
   .sidebar-categories ul li.active>a:last-child:after {
+    content: none;
+  }
+  .sidebar-categories ul li>a:last-child:after {
     content: none;
   }
 /***** Button *****/
