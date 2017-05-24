@@ -41,6 +41,12 @@ a {
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
 }
+#mainNavbarCollapsable ul.mainmenu > li > ul > li {
+  display: block;
+  width: 33.3333%;
+  text-align: left;
+  float: left;
+}
 /***** Menü Leiste (oben) *****/
 .wrapper-main>nav.container-max {
   background-color: #fff !important;
