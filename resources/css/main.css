@@ -47,6 +47,15 @@ a {
   text-align: left;
   float: left;
 }
+/* Menü Icons*/
+#mainNavbarCollapsable ul.mainmenu li.ddown>a:after {
+  content: "\f105";
+}
+@media (min-width: 992px) {
+  #mainNavbarCollapsable ul.mainmenu>li.ddown>a:after {
+      content: "\f107";
+  }
+}
 /***** Menü Leiste (oben) *****/
 .wrapper-main>nav.container-max {
   background-color: #fff !important;
