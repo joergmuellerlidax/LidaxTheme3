@@ -104,11 +104,15 @@ a {
   font-family: 'Muli', sans-serif !important;
   border: 1px solid #ececec;
 }
+  .sidebar-categories .category-title {
+      background: #fff;
+  }
   .sidebar-categories a {
     color: #4D4F4D !important;
   }
   .sidebar-categories ul li.active>a {
     color: #e878aa !important;
+    background: #fff;
   }
 /***** Button *****/
 /*ausgefüllter Button*/
