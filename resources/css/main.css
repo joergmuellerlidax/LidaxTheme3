@@ -45,6 +45,11 @@ a {
   background-color: rgb(51, 51, 51);
   width: 100%;
 }
+/** myaccount **/
+.myaccount fa:hover {
+  color: #FCA9C6;
+}
+
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
