@@ -43,10 +43,10 @@ a {
 }
 .account-menu .list-group-item {
   background-color: rgb(51, 51, 51);
+  width: 100%;
 }
   .account-menu .list-group-item:hover {
-    background-color: #fd98bb;
-    width: 100%;
+    background-color: #fd98bb;    
   }
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
