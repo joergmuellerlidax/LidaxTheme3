@@ -49,7 +49,7 @@ a {
 .myaccount fa:hover {
   color: #FCA9C6;
 }
-.myaccount .item-inner {
+.myaccount .dropdown-menu .item-inner {
   background-color: #FCA9C6;
 }
 /***** Menü (oben) *****/
