@@ -49,7 +49,9 @@ a {
 .myaccount fa:hover {
   color: #FCA9C6;
 }
-
+.myaccount .item-inner {
+  background-color: #FCA9C6;
+}
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
