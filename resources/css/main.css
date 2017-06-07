@@ -41,7 +41,7 @@ a {
 .top-bar .controls-list > li a:hover, .top-bar .controls-list > li a[aria-expanded="true"] {
   background-color: #fd98bb;
 }
-.account-menu .list-group-item small{
+.account-menu .list-group-item {
   background-color: rgb(51, 51, 51);
 }
 /***** Menü (oben) *****/
@@ -157,6 +157,9 @@ a {
     background-color: #FF80AB;
     border-color: #FF80AB;
   }
+.btn-danger {
+    color: #fff !important;
+}
 /*Nicht ausgefüllter Button*/
 .btn-outline-primary {
   color: #FF80AB;
