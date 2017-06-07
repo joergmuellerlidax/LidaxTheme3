@@ -194,10 +194,13 @@ a {
 }
 /*Artikel*/
 /*Seiten navbar (unten)*/
-.page-item.active .page-link, .page-item.active .page-link:focus, .page-item .page-link, .page-item.active .page-link:hover{
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
   background-color: #FD98BB;
   border-color: #FD98BB;
   color: #fff !important;
+}
+.page-item .page-link {
+  color: #FD98BB !important;
 }
 /*****Artikelseite*****/
 /*Sofort versandfertig,Lieferzeit 2-3Tage*/
