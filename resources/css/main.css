@@ -45,9 +45,6 @@ a {
   background-color: rgb(51, 51, 51);
   width: 100%;
 }
-  .account-menu .list-group-item:hover {
-    background-color: #fd98bb;    
-  }
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
@@ -197,7 +194,7 @@ a {
 }
 /*Artikel*/
 /*Seiten navbar (unten)*/
-.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item .page-link, .page-item.active .page-link:hover{
   background-color: #FD98BB;
   border-color: #FD98BB;
   color: #fff !important;
