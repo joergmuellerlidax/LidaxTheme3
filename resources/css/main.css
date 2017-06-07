@@ -38,13 +38,16 @@ a {
 }
 /** Userbar Benutzer **/
 /*Farbe für das klicken auf den Benutzernamen*/
-.account-menu .list-group-item:hover {
+.top-bar .controls-list > li a:hover, .top-bar .controls-list > li a[aria-expanded="true"] {
   background-color: #fd98bb;
-  width: 100%;
 }
 .account-menu .list-group-item {
   background-color: rgb(51, 51, 51);
 }
+  .account-menu .list-group-item:hover {
+    background-color: #fd98bb;
+    width: 100%;
+  }
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
