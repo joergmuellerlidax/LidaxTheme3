@@ -216,6 +216,7 @@ a {
 .btn-outline-primary:active:hover, .btn-outline-primary:focus{
     background-color: #FF80AB;
     border-color: #FF80AB;
+    color: #fff;
 }
 /*Suche Button*/
 .cmp-search-box .search-submit {
