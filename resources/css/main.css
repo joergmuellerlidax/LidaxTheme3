@@ -36,6 +36,9 @@ a {
 .control-user .pipe {
   display: none;
 }
+.account-menu a:hover{
+  text-decoration: underline;
+}
 /** Userbar Benutzer **/
 /*Farbe für das klicken auf den Benutzernamen*/
 .top-bar .controls-list > li a:hover, .top-bar .controls-list > li a[aria-expanded="true"] {
@@ -60,7 +63,10 @@ a {
   color: #4d4f4d;
 }
 .add-item .fa:hover {
-    color: #b2b1a7;
+    color: #fd98bb;
+}
+.card .item-edit .fa:hover, .cmp-address-list .items > div:first-child .item-edit .fa:hover {
+  color:
 }
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
