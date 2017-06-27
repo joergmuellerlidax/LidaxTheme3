@@ -199,6 +199,10 @@ a {
 .btn-danger {
     color: #fff !important;
 }
+/*neuheit Button*/
+.bg-primary {
+    background-color: #FF80AB !important;
+}
 /*Nicht ausgefüllter Button*/
 .btn-outline-primary {
   color: #FF80AB;
