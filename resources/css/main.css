@@ -52,6 +52,16 @@ a {
 .myaccount .dropdown-menu .item-inner {
   background-color: #FCA9C6;
 }
+/*Rechnungsadressen */
+.cmp-address-list .item-edit .fa, .cmp-address-list .item-remove .fa {
+  color: #4d4f4d;
+}
+.cmp-address-list .item-edit .fa:hover {
+  color: #4d4f4d;
+}
+.add-item .fa:hover {
+    color: #b2b1a7;
+}
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;

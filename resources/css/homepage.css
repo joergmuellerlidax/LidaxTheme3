@@ -10,6 +10,7 @@
 .main_pagecontent {
   margin-top: 25px;
   padding: 0;
+  max-width: 1200px;
 }
 /*****Sale*****/
 .homepage_sale-row {
