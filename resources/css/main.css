@@ -62,11 +62,26 @@ a {
 .cmp-address-list .item-edit .fa:hover {
   color: #4d4f4d;
 }
+.cmp-address-list .item input:checked + .item-inner {
+  background-color: #FCA9C6;
+}
 .add-item .fa:hover {
     color: #fd98bb;
 }
 .card .item-edit .fa:hover, .cmp-address-list .items > div:first-child .item-edit .fa:hover {
-  color:
+
+}
+/*Bestelldetails*/
+.loading-animation > div {
+    background-color: #FF80AB;
+}
+/***** Länder Auswahl *****/
+.cmp-country-settings ul li.active a {
+    background-color: transparent;
+    color: #fff;
+}
+.cmp-country-settings ul li.active a:hover {
+    background-color: transparent;
 }
 /***** Menü (oben) *****/
 #mainNavbarCollapsable ul.mainmenu > li  {
