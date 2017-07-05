@@ -5,5 +5,12 @@
 	    "label"     : "URL to your company logo",
 	    "type"      : "text",
 	    "default"   : "/images/gallery/Template Vorlagen/logo.png"
-	}
+	},
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepageSliderImg1",
+		"label"     : "Link für das erste Slider Bild",
+		"type"      : "text",
+		"default"   : "/"
+	},
 ]

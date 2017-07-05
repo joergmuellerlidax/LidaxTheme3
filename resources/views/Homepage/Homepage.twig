@@ -1,5 +1,6 @@
 {% extends 'Ceres::Homepage.Homepage' %}
-
+{% set lang = services.sessionStorage.getLang() %}
+{% set homepageFirstSlideTitleDE  = config("CeresSadingo.homepage.homepageSliderImg1") %}
 
 {% block ThemeHomepage %}
 <div class="main_container_slider container-max page-content"><!--Anfang des Containers-->
@@ -12,7 +13,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block img-fluid" src="https://www.sadingo.de/images/gallery/Startseite/sliderVorschau-1.png" alt="First slide">
+          <img class="d-block img-fluid" src="{{ homepageSliderImg1 }}" alt="First slide">
         </div>
         <div class="carousel-item">
           <img class="d-block img-fluid" src="https://www.sadingo.de/images/gallery/Startseite/sliderVorschau-2.png" alt="Second slide">
@@ -47,7 +48,7 @@
             <a href="/perlenparadies"><img class="homepage_card_img card-img-top" src="https://www.sadingo.de/images/gallery/Startseite/perlenparadies.png" alt="Perlenparadies"></a>
             <div class="homepage_card-block card-block">
               <h4 class="card-title">Perlenparadies</h4>
-              <p class="card-text">Entdecke im Perlenparadies unsere Auswahl an verschiedenen Perlen.</p>
+              <p class="card-text">Entdecke im Perlenparadies unsere Auswahl an verschiedenen Perlen.</p></br>
               <a href="/perlenparadies" class="btn btn-outline-primary">Entdecken</a>
             </div>
           </div>
