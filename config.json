@@ -12,5 +12,5 @@
 		"label"     : "Link für das erste Slider Bild",
 		"type"      : "text",
 		"default"   : "/"
-	},
+	}
 ]
