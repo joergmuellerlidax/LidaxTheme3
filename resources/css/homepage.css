@@ -38,6 +38,7 @@
 
 }
 .homepage_card_img {
+  height: auto;
   width: 100%;
   background-color: #e878aa;
 }
