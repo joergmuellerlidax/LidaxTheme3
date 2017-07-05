@@ -9,21 +9,21 @@
 	{
 		"tab"       : "Homepage",
 		"key"       : "homepage.homepageSliderImg1",
-		"label"     : "1 Slider Bild",
+		"label"     : "Erstes Slider Bild",
 		"type"      : "text",
 		"default"   : "/"
 	},
 	{
 		"tab"       : "Homepage",
 		"key"       : "homepage.homepageSliderImg2",
-		"label"     : "2 Slider Bild",
+		"label"     : "Zweites Slider Bild",
 		"type"      : "text",
 		"default"   : "/"
 	},
 	{
 		"tab"       : "Homepage",
 		"key"       : "homepage.homepageSliderImg3",
-		"label"     : "3 Slider Bild",
+		"label"     : "Drittes Slider Bild",
 		"type"      : "text",
 		"default"   : "/"
 	},
