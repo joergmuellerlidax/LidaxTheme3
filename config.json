@@ -6,11 +6,55 @@
 	    "type"      : "text",
 	    "default"   : "/images/gallery/Template Vorlagen/logo.png"
 	},
+	/*Slider Bilder*/
 	{
 		"tab"       : "Homepage",
 		"key"       : "homepage.homepageSliderImg1",
-		"label"     : "Link für das erste Slider Bild",
+		"label"     : "1 Slider Bild",
 		"type"      : "text",
 		"default"   : "/"
-	}
+	},
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepageSliderImg2",
+		"label"     : "2 Slider Bild",
+		"type"      : "text",
+		"default"   : "/"
+	},
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepageSliderImg3",
+		"label"     : "3 Slider Bild",
+		"type"      : "text",
+		"default"   : "/"
+	},
+	/*Kategorien Bilder*/
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepagePerlenparadies",
+		"label"     : "Perlenparadies",
+		"type"      : "text",
+		"default"   : "/"
+	},
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepageSchmuckmaterial",
+		"label"     : "Schmuckmaterial",
+		"type"      : "text",
+		"default"   : "/"
+	},
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepageBastelnKreatives",
+		"label"     : "Basteln & Kreatives",
+		"type"      : "text",
+		"default"   : "/"
+	},
+	{
+		"tab"       : "Homepage",
+		"key"       : "homepage.homepageSchmuckstuecke",
+		"label"     : "Schmuckstücke",
+		"type"      : "text",
+		"default"   : "/"
+	},
 ]
