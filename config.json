@@ -6,7 +6,6 @@
 	    "type"      : "text",
 	    "default"   : "/images/gallery/Template Vorlagen/logo.png"
 	},
-	/*Slider Bilder*/
 	{
 		"tab"       : "Homepage",
 		"key"       : "homepage.homepageSliderImg1",
@@ -28,7 +27,6 @@
 		"type"      : "text",
 		"default"   : "/"
 	},
-	/*Kategorien Bilder*/
 	{
 		"tab"       : "Homepage",
 		"key"       : "homepage.homepagePerlenparadies",
