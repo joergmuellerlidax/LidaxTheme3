@@ -31,13 +31,13 @@
 }
 /*****Cards*****/
 .homepage_card {
-    width: 100% !important;
+  width: 100% !important;
+  height: 452px;
 }
 .homepage_card-block {
 
 }
 .homepage_card_img {
-  height: 348px;
   width: 100%;
   background-color: #e878aa;
 }
