@@ -5,6 +5,9 @@
 {% set homepageSliderImg2  = config("CeresSadingo.homepage.homepageSliderImg2") %}
 {% set homepageSliderImg3  = config("CeresSadingo.homepage.homepageSliderImg3") %}
 
+{% set homepageBannerLink  = config("CeresSadingo.homepage.homepageBannerLink") %}
+{% set homepageBannerText  = config("CeresSadingo.homepage.homepageBannerText") %}
+
 {% set homepageCategoriePerlenparadies  = config("CeresSadingo.homepage.homepagePerlenparadies") %}
 {% set homepageCategorieSchmuckmaterial  = config("CeresSadingo.homepage.homepageSchmuckmaterial") %}
 {% set homepageCategorieBastelnKreatives  = config("CeresSadingo.homepage.homepageBastelnKreatives") %}
@@ -51,7 +54,7 @@
         </p>
       </div>
       <div class="homepage_sale-row">
-        <a href="https://www.sadingo.de/sale">SALE</a>
+        <a href="{{ homepageBannerLink }}">{{ homepageBannerText }}</a>
       </div>
       <div class="homepage_row row">
         <div class="col-md-3">
