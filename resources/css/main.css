@@ -144,8 +144,15 @@ a {
 }
 /***** Warenkorb *****/
 /*Name des Produktes*/
-
-/***** Sidebar Categories*****/
+/***** Artikel Seite *****/
+.owl-theme .owl-nav [class*=owl-] {
+  background-color: #FD98BB;
+  color: #fff;
+}
+  .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #FF80AB;
+  }
+/***** Sidebar Categories *****/
 .sidebar-categories {
   font-family: 'Muli', sans-serif !important;
   border: 1px solid #ececec;
