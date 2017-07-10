@@ -30,6 +30,15 @@ class CeresSadingoServiceProvider extends ServiceProvider
         $container->setTemplate("CeresSadingo::Homepage.Homepage");
         return false;
     });
+		// provide mapped category IDs - DEPRECATED?
+		$eventDispatcher->listen('init.categories', function (CategoryMap $categoryMap) use (&$config) {
+				$categoryMap->setCategoryMap(array(
+						CategoryKey::HOME => $config->get("Ceres.global.category.home"),
+						CategoryKey::PAGE_NOT_FOUND => $config->get("Ceres.global.category.page_not_found"),
+						CategoryKey::ITEM_NOT_FOUND => $config->get("Ceres.global.category.item_not_found")
+				));
+
+		}, self::EVENT_LISTENER_PRIORITY);
 		// footer view
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
 		{
