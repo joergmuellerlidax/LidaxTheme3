@@ -35,7 +35,7 @@ class CeresSadingoServiceProvider extends ServiceProvider
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
 		{
 			 $partial->set('footer', 'CeresSadingo::content.Footer');
-			 $partial->set('category', 'CeresSadingo::content.CategoryItem');
+			 $partial->set('CategoryItem', 'CeresSadingo::content.CategoryItem');
 		}, 0);
 		return false;
 
