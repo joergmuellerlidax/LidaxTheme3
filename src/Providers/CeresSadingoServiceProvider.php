@@ -14,7 +14,8 @@ class CeresSadingoServiceProvider extends ServiceProvider
 
 	private static $templateKeyToViewMap = [
 			'tpl.home'               => 'Homepage.Homepage',                // provide template to use for homepage
-			'tpl.category.item'      => 'Category.Item.CategoryItem',       // provide template to use for item categories
+			'tpl.category.content'   => 'Category.Content.CategoryContent', // provide template to use for content categories
+			'tpl.category.item'      => 'Category.Item.CategoryItem'        // provide template to use for item categories
 	];
 	/**
 	 * Register the service provider.
