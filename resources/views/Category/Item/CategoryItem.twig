@@ -1,6 +1,6 @@
 {% extends getPartial('page-design') %}
-{% import "CeresSadingo::Category.Macros.CategoryTree" as Tree %}
-{% import "CeresSadingo::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
+{% import "Ceres::Category.Macros.CategoryTree" as Tree %}
+{% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
 {% set itemSort             = request.get("sorting") | default(config('Ceres.sort.defaultSorting')) %}
 {% set orderBy              = itemSort[0] %}
@@ -16,7 +16,7 @@
 
 {% set page = request.get("page") | default(1) %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('CeresSadingo::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':category.id, 'page':page, 'items':itemsPerPage, 'facets': facetParams, 'sorting': itemSort, 'variationShowType': config("Ceres.item.variation_show_type")}) %}
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':category.id, 'page':page, 'items':itemsPerPage, 'facets': facetParams, 'sorting': itemSort, 'variationShowType': config("Ceres.item.variation_show_type")}) %}
 
 {% set pageMax = (paginatedResult.total / itemsPerPage) | round %}
 {% set query  = { 'items' : itemsPerPage, 'sorting' : itemSort } %}
@@ -36,13 +36,13 @@
 
 {% block PageBody %}
 
-    {{ component( "CeresSadingo::ItemList.Components.Filter.ItemFilterList") }}
-    {{ component( "CeresSadingo::ItemList.Components.Filter.ItemFilterTagList") }}
-    {{ component( "CeresSadingo::ItemList.Components.ItemList") }}
-    {{ component( "CeresSadingo::ItemList.Components.CategoryImageCarousel") }}
-    {{ component( "CeresSadingo::ItemList.Components.ItemListSorting") }}
-    {{ component( "CeresSadingo::ItemList.Components.ItemsPerPage") }}
-    {{ component( "CeresSadingo::ItemList.Components.Pagination") }}
+    {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
+    {{ component( "Ceres::ItemList.Components.Filter.ItemFilterTagList") }}
+    {{ component( "Ceres::ItemList.Components.ItemList") }}
+    {{ component( "Ceres::ItemList.Components.CategoryImageCarousel") }}
+    {{ component( "Ceres::ItemList.Components.ItemListSorting") }}
+    {{ component( "Ceres::ItemList.Components.ItemsPerPage") }}
+    {{ component( "Ceres::ItemList.Components.Pagination") }}
 
     <resource name="facetParams" :data="[]"></resource>
     <resource name="facets" :data="{{ paginatedResult.facets | json_encode }} || []"></resource>
@@ -52,7 +52,6 @@
         <div class="row m-t-1">
             <div class="col-xs-12">
                 <h1 class="h4">{{ category.details.first.name }}</h1>
-                <h2> SadingoCategoryItem </h2>
             </div>
         </div>
 
