@@ -20,7 +20,6 @@ class CeresSadingoServiceProvider extends ServiceProvider
 	 * Register the service provider.
 	 */
 	public function register(){
-
 	}
 
 	public function boot (Twig $twig, Dispatcher $eventDispatcher)
@@ -37,7 +36,6 @@ class CeresSadingoServiceProvider extends ServiceProvider
 						CategoryKey::PAGE_NOT_FOUND => $config->get("CeresSadingo.global.category.page_not_found"),
 						CategoryKey::ITEM_NOT_FOUND => $config->get("CeresSadingo.global.category.item_not_found")
 				));
-
 		}, self::EVENT_LISTENER_PRIORITY);
 		// footer view
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
