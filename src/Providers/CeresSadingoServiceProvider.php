@@ -33,9 +33,9 @@ class CeresSadingoServiceProvider extends ServiceProvider
 		// provide mapped category IDs - DEPRECATED?
 		$eventDispatcher->listen('init.categories', function (CategoryMap $categoryMap) use (&$config) {
 				$categoryMap->setCategoryMap(array(
-						CategoryKey::HOME => $config->get("Ceres.global.category.home"),
-						CategoryKey::PAGE_NOT_FOUND => $config->get("Ceres.global.category.page_not_found"),
-						CategoryKey::ITEM_NOT_FOUND => $config->get("Ceres.global.category.item_not_found")
+						CategoryKey::HOME => $config->get("CeresSadingo.global.category.home"),
+						CategoryKey::PAGE_NOT_FOUND => $config->get("CeresSadingo.global.category.page_not_found"),
+						CategoryKey::ITEM_NOT_FOUND => $config->get("CeresSadingo.global.category.item_not_found")
 				));
 
 		}, self::EVENT_LISTENER_PRIORITY);
@@ -43,6 +43,7 @@ class CeresSadingoServiceProvider extends ServiceProvider
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
 		{
 			 $partial->set('footer', 'CeresSadingo::content.Footer');
+			 $partial->set('category', 'CeresSadingo::content.Category');
 		}, 0);
 		return false;
 
