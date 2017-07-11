@@ -17,23 +17,5 @@
               "name"          :"CeresSadingo",
               "description"   :"Ändert das Design von Ceres!"
           }
-      ],
-      "containers"            :
-      [
-          {
-            "key"           : "CategoryItem.BeforePrices",
-            "name"          : "Category item list: Before prices container",
-            "description"   : "Add content before the prices in the category item view."
-          },
-          {
-              "key"           : "CategoryItem.AfterPrices",
-              "name"          : "Category item list: After prices container",
-              "description"   : "Add content after the prices in the category item view."
-          },
-          {
-              "key"           : "CategoryItem.SideNavBarBottom",
-              "name"          : "Category item list: Container below side navigation",
-              "description"   : "Add content below the side navigation bar in the category item view."
-          }
       ]
 }
