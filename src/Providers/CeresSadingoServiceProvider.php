@@ -14,7 +14,7 @@ class CeresSadingoServiceProvider extends ServiceProvider
 
 	private static $templateKeyToViewMap = [
 			'tpl.home'               => 'Homepage.Homepage',                // provide template to use for homepage
-			'tpl.category.item'      => 'content.CategoryItem',       // provide template to use for item categories
+			'tpl.category.item'      => 'content.CategoryItem'       // provide template to use for item categories
 	];
 	/**
 	 * Register the service provider.
@@ -35,7 +35,6 @@ class CeresSadingoServiceProvider extends ServiceProvider
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
 		{
 			 $partial->set('footer', 'CeresSadingo::content.Footer');
-			 $partial->set('CategoryItem', 'CeresSadingo::content.CategoryItem');
 		}, 0);
 		return false;
 
