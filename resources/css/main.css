@@ -1,4 +1,4 @@
-/********** CeresSadingo Design **********/
+/********** CeresSadingo Design ***********************************************/
 body {
   background-color: #fff;/*#F4F4F4;*/
   /*<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">*/
@@ -11,7 +11,7 @@ a {
 .basket-preview .totals, .btn-labeled, .small, small {
   font-size: 100% !important;
 }
-/***** Userbar (oben) *****/
+/***** Userbar (oben) *********************************************************/
 .controls-list a {
   color: #fff !important;
 }
@@ -39,7 +39,7 @@ a {
 .account-menu a:hover{
   text-decoration: underline;
 }
-/** Userbar Benutzer **/
+/** Userbar Benutzer **********************************************************/
 /*Farbe für das klicken auf den Benutzernamen*/
 .top-bar .controls-list > li a:hover, .top-bar .controls-list > li a[aria-expanded="true"] {
   background-color: #fd98bb;
@@ -75,7 +75,7 @@ a {
 .loading-animation > div {
   background-color: #FF80AB;
 }
-/***** Länder Auswahl *****/
+/***** Länder Auswahl *********************************************************/
 .cmp-country-settings ul li.active a {
   background-color: transparent;
   color: #fff;
@@ -83,7 +83,7 @@ a {
 .cmp-country-settings ul li.active a:hover {
     background-color: transparent;
 }
-/***** Menü (oben) *****/
+/***** Menü (oben) ************************************************************/
 #mainNavbarCollapsable ul.mainmenu > li  {
   position: static !important;
 }
@@ -102,7 +102,7 @@ a {
       content: "\f107";
   }
 }
-/***** Menü Leiste (oben) *****/
+/***** Menü Leiste (oben) *****************************************************/
 .wrapper-main>nav.container-max {
   background-color: #fff !important;
 }
@@ -142,17 +142,57 @@ a {
 .wrapper-main .navbar .navbar-nav .nav-item>.nav-link {
     border: none !important;
 }
-/***** Warenkorb *****/
+/***** Warenkorb **************************************************************/
 /*Name des Produktes*/
-/***** Artikel Seite *****/
+/***** Artikel Seite **********************************************************/
 .owl-theme .owl-nav [class*=owl-] {
   background-color: #FD98BB;
   color: #fff;
 }
+.col-md-7 {
+  z-index: 999;
+}
   .owl-theme .owl-nav [class*=owl-]:hover {
     background-color: #FF80AB;
   }
-/***** Sidebar Categories *****/
+  .single-rightside {
+    float: right;
+  }
+  .crossprice {
+    display: none !important;
+  }
+  .cmp-product-thumb .thumb-meta .vat-porto-info {
+      font-size: 10px !important;
+  }
+  .single-leftside {
+    height: 500px;
+  }
+  .owl-lazy {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .owl-height {
+    height: 400px !important;
+        text-align: center;
+  }
+  .owl-carousel .owl-single-item-control {
+    color: #FD98BB !important;
+    opacity: 0.9;
+  }
+    .owl-carousel .owl-single-item-control:hover {
+      color: #FD98BB !important;
+      opacity: 1;
+    }
+  .owl-carousel .owl-dots {
+    top: 385px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #FF80AB !important;
+  }
+  .owl-thumbs .owl-thumb.active, .owl-thumbs .owl-thumb:hover {
+    border: 1px solid #FF80AB;
+  }
+/***** Sidebar Categories *****************************************************/
 .sidebar-categories {
   font-family: 'Muli', sans-serif !important;
   border: 1px solid #ececec;
