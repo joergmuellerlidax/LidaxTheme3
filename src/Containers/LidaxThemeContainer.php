@@ -8,6 +8,6 @@
     {
         public function call(Twig $twig):string
         {
-            return $twig->render('LidaxTheme::content.LidaxTheme');
+            return $twig->render('LidaxTheme::LidaxTheme');
         }
     }
